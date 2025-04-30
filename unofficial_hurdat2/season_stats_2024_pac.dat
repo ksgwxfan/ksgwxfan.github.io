@@ -1,27 +1,26 @@
 ----------------------------------------------------------------------
-                   Tropical Cyclone Stats for 2024                    
-                East Pacific / Central Pacific Basins                 
+                   Tropical Cyclone Stats for 2024
+                East Pacific / Central Pacific Basins
 
-      Stats calculated for Seasons since 1967 (58 total seasons)      
-                   from January 1 thru December 21                    
+      Stats calculated for Seasons since 1967 (58 total seasons)
 
-    * TS-related Statistics include Hurricanes in their totals except 
-                            for landfall data                         
+    * TS-related Statistics include Hurricanes in their totals except
+                            for landfall data
 
-         * Hurdat2 Landfall data incomplete for seasons 1971-1990     
+         * Hurdat2 Landfall data incomplete for seasons 1971-1990
 * Reported ranks are Dense (value-based) and Competition (if different)
 ----------------------------------------------------------------------
-* Tropical Cyclones: 15            Ranks: 14/20 :: 44/58 (tied w/3 seasons)
-* TC Track Distance: 13821.8 nmi   Ranks: 51/58
-* TS Distance: 12190.3 nmi         Ranks: 44/58
-* HU Distance: 3429.0 nmi          Ranks: 47/58
-* MHU Distance: 1300.7 nmi         Ranks: 34/54
-* Tropical Storms: 13              Ranks: 13/18 :: 46/57 (tied w/1 season)
-* ACE: 82.5 * 10^4 kt^2            Ranks: 44/58
-* Hurricanes: 5                    Ranks: 11/13 :: 51/58 (tied w/2 seasons)
-* HDP: 52.2 * 10^4 kt^2            Ranks: 43/58
-* Major Hurricanes: 3              Ranks:  9/12 :: 33/54 (tied w/8 seasons)
-* MHDP: 28.4 * 10^4 kt^2           Ranks: 31/54
-* Total Landfalling TC's: 0        Ranks:   8/8 :: 34/34 (tied w/24 seasons)
-* TS Landfalls: 0                  Ranks:   5/5 :: 26/26 (tied w/32 seasons)
-* HU Landfalls: 0                  Ranks:   5/5 :: 26/26 (tied w/32 seasons)
+* Tropical Cyclones: 15            Ranks: 14/20 :: 44/58 (tied w/4 seasons)
+* TC Track Distance: 13636.1 nmi   Ranks: 51/58
+* TS Distance: 12025.4 nmi         Ranks: 44/58
+* HU Distance: 3489.7 nmi          Ranks: 47/58
+* MHU Distance: 1384.3 nmi         Ranks: 32/54
+* Tropical Storms: 14              Ranks: 12/18 :: 43/57 (tied w/3 seasons)
+* ACE: 84.9 * 10^4 kt^2            Ranks: 43/58
+* Hurricanes: 5                    Ranks: 12/14 :: 51/58 (tied w/5 seasons)
+* HDP: 53.8 * 10^4 kt^2            Ranks: 43/58
+* Major Hurricanes: 3              Ranks:  9/12 :: 33/54 (tied w/9 seasons)
+* MHDP: 30.7 * 10^4 kt^2           Ranks: 27/54
+* Total Landfalling TC's: 1        Ranks:   7/8 :: 27/35 (tied w/8 seasons)
+* TS Landfalls: 1                  Ranks:   4/5 :: 17/27 (tied w/9 seasons)
+* HU Landfalls: 1                  Ranks:   4/5 :: 14/27 (tied w/13 seasons)
