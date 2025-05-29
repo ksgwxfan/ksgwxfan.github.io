@@ -2,8 +2,8 @@
                    Tropical Cyclone Stats for 2025                    
                 East Pacific / Central Pacific Basins                 
 
-                Stats calculated for Seasons 1967-2025                
-                      from January 1 thru May 27                      
+      Stats calculated for Seasons since 1967 (59 total seasons)      
+                      from January 1 thru May 28                      
 
     * TS-related Statistics include Hurricanes in their totals except 
                             for landfall data                         
@@ -11,17 +11,17 @@
          * Hurdat2 Landfall data incomplete for seasons 1971-1990     
 * Reported ranks are Dense (value-based) and Competition (if different)
 ----------------------------------------------------------------------
-* Tropical Cyclones: 0             Ranks:   3/3 (tied w/29 seasons)
-* TC Track Distance: 0.0 nmi       Ranks: 28/28 (tied w/31 seasons)
-* TS Distance: 0.0 nmi             Ranks: 24/24 (tied w/35 seasons)
-* HU Distance: 0.0 nmi             Ranks: 12/12 (tied w/47 seasons)
-* MHU Distance: 0.0 nmi            Ranks:   4/4 (tied w/55 seasons)
-* Tropical Storms: 0               Ranks:   3/3 (tied w/35 seasons)
-* ACE: 0.0 * 10^4 kt^2             Ranks: 24/24 (tied w/35 seasons)
-* Hurricanes: 0                    Ranks:   2/2 (tied w/47 seasons)
-* HDP: 0.0 * 10^4 kt^2             Ranks: 12/12 (tied w/47 seasons)
-* Major Hurricanes: 0              Ranks:   2/2 (tied w/55 seasons)
-* MHDP: 0.0 * 10^4 kt^2            Ranks:   4/4 (tied w/55 seasons)
+* Tropical Cyclones: 1             Ranks:   2/3 ::  7/33 (tied w/25 seasons)
+* TC Track Distance: 55.3 nmi      Ranks: 31/32
+* TS Distance: 0.0 nmi             Ranks: 27/27 (tied w/32 seasons)
+* HU Distance: 0.0 nmi             Ranks: 13/13 (tied w/46 seasons)
+* MHU Distance: 0.0 nmi            Ranks:   5/5 (tied w/54 seasons)
+* Tropical Storms: 0               Ranks:   3/3 :: 27/27 (tied w/32 seasons)
+* ACE: 0.0 * 10^4 kt^2             Ranks: 27/27 (tied w/32 seasons)
+* Hurricanes: 0                    Ranks:   2/2 :: 13/13 (tied w/46 seasons)
+* HDP: 0.0 * 10^4 kt^2             Ranks: 13/13 (tied w/46 seasons)
+* Major Hurricanes: 0              Ranks:   2/2 ::   5/5 (tied w/54 seasons)
+* MHDP: 0.0 * 10^4 kt^2            Ranks:   5/5 (tied w/54 seasons)
 * Total Landfalling TC's: 0        Ranks:   2/2 (tied w/57 seasons)
 * TS Landfalls: 0                  Ranks:   1/1 (tied w/58 seasons)
 * HU Landfalls: 0                  Ranks:   1/1 (tied w/58 seasons)
