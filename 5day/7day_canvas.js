@@ -71,11 +71,11 @@ var logo = [
 	"5day/logo_blank.svg",
 ];
 
-let custom_logo = document.getElementById("form-custom-logo");
-custom_logo.onchange = unlock_custom_logo_button;
+// let custom_logo = document.getElementById("form-custom-logo");
+// custom_logo.onchange = unlock_custom_logo_button;
 
-let btn_custom_logo = document.getElementById("btn-custom-logo");
-btn_custom_logo.onclick = generate_custom_logo_data;
+// let btn_custom_logo = document.getElementById("btn-custom-logo");
+// btn_custom_logo.onclick = generate_custom_logo_data;
 
 logo.currentIndex = function() {
 	return this.findIndex(
