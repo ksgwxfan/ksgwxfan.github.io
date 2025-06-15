@@ -71,6 +71,12 @@ var logo = [
 	"5day/logo_blank.svg",
 ];
 
+let custom_logo = document.getElementById("form-custom-logo");
+custom_logo.onchange = unlock_custom_logo_button;
+
+let btn_custom_logo = document.getElementById("btn-custom-logo");
+btn_custom_logo.onclick = generate_custom_logo_data;
+
 logo.currentIndex = function() {
 	return this.findIndex(
 		(logourl, indx, arr) => {
@@ -1788,6 +1794,30 @@ function chg_logo(dir) {
 			0 :
 			logo.currentIndex() + dir
 	);
+}
+
+async function generate_custom_logo_data() {
+	z = new FileReader();
+	z.onloadend = () => {
+		logo.push(z.result);
+		prop.logo.src = logo.at(-1);
+	}
+	
+	new_logo_url = URL.createObjectURL(
+		custom_logo.files[0]
+	);
+	blob = await fetch(new_logo_url)
+		.then(r => r.blob())
+		.then(b => z.readAsDataURL(b));
+}
+
+function unlock_custom_logo_button() {
+	if (Boolean(custom_logo.files[0])) {
+		btn_custom_logo.disabled = false;
+	}
+	else {
+		btn_custom_logo.disabled = true;
+	}
 }
 
 function chg_imagery(type, dy, dir) {

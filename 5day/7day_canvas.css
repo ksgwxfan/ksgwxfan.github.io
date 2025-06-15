@@ -200,6 +200,11 @@ fieldset {
 .titleopt {
 	font-weight: bold;
 	text-decoration: underline;
+	text-align: center;
+}
+#form-custom-logo {
+	font-style: italic;
+	color: yellow;
 }
 .optdaydisp {
 	font-weight: bold;
