@@ -1,1 +1,1 @@
-document.getElementById("last-updated").innerText = "Stats Last Updated: 29 Jun 2025 22:00 EDT";
+document.getElementById("last-updated").innerText = "Stats Last Updated: 30 Jun 2025 22:00 EDT";
