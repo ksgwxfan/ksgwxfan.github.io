@@ -262,7 +262,7 @@ function new_call(ev=null, testspace=null) {
 	}
 
 	let r;
-
+	console.log(ev);
 	// Make a new call
 	if (
 		bingo.possibilities.length > 0
@@ -272,7 +272,10 @@ function new_call(ev=null, testspace=null) {
 		if (testspace) {
 			r = bingo.possibilities.indexOf(testspace);
 		}
-		else if (["KeyC", "PageUp", "PageDown"].includes(ev.code)) {
+		else if (
+			["KeyC", "PageUp", "PageDown"].includes(ev.code) ||
+			ev.target.id == "kbd-c"
+		) {
 			// console.log(MIN + Math.floor(Math.random() * (MAX-MIN+1)));
 			r = Math.floor(Math.random() * bingo.possibilities.length);
 		}
