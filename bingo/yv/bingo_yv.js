@@ -29,6 +29,7 @@ _optcollapse.addEventListener(
 _optnewgame.onclick = new_game;
 _optrestore.onclick = restore_last_game;
 _button_full.onclick = try_fullScreen;
+document.getElementById("kbd-c").onclick = new_call;
 
 const bingo = {
 	min : 1,
