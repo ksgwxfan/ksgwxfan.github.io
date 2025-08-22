@@ -1,4 +1,4 @@
-const _version = 1.01;
+const _version = 1.02;
 
 let call_buffer_time = document.getElementById("call-buffer-input");
 let _optbar = document.getElementById("option-bar");
@@ -7,6 +7,7 @@ let _optcollapse = document.getElementById("button-collapse");
 
 let _optnewgame= document.getElementById("button-newgame");
 let _optrestore= document.getElementById("button-restore");
+let _button_full = document.getElementById("button-fs");
 
 // expand/collapse button listeners
 _optexpand.addEventListener(
@@ -27,7 +28,7 @@ _optcollapse.addEventListener(
 // new game button
 _optnewgame.onclick = new_game;
 _optrestore.onclick = restore_last_game;
-document.getElementById("kbd-c").onclick = new_call;
+_button_full.onclick = try_fullScreen;
 
 const bingo = {
 	min : 1,
@@ -206,30 +207,32 @@ function rebuild_bingo_possibilities() {
 }
 
 function try_fullScreen() {
-	appendLog(
-		new Date(),
-		"* Requesting to go fullscreen"
-	);
-	document.body.requestFullscreen({"navigationUI": "hide"})
-		.then(blah => {
-			appendLog("", "     GRANTED");
-		}).catch(err => {
-			appendLog("", "     DENIED");
-		});
-}
-
-function exit_fullScreen() {
-	appendLog(
-		new Date(),
-		"* Requesting to EXIT fullscreen"
-	);
-	document.exitFullscreen()
-		.then(blah => {
-			appendLog("", "     GRANTED");
-		}).catch(err => {
-			appendLog("", "     FAIL: " + err);
+	// Go Full Screen
+	if (! Boolean(parseInt(_button_full.dataset.full))) {
+		document.body.requestFullscreen({"navigationUI": "hide"})
+		.then(
+			blah => {
+				_button_full.dataset.full = "1";
+				console.log("success! :: enter fullscreen");
+			}
+		)
+		.catch(err => {
+			console.log("entering of fullscreen mode failed!");
 			throw err;
 		});
+	}
+	// Exit Full Screen
+	else {
+		document.exitFullscreen()
+		.then(blah => {
+			_button_full.dataset.full = "0";
+			console.log("success! :: exit of fullScreen");
+		})
+		.catch(err => {
+			console.log("exiting of fullscreen mode failed!");
+			throw err;
+		});
+	}
 }
 
 function call_protect(seconds=1) {
@@ -262,7 +265,7 @@ function new_call(ev=null, testspace=null) {
 	}
 
 	let r;
-	console.log(ev);
+	// console.log(ev);
 	// Make a new call
 	if (
 		bingo.possibilities.length > 0
