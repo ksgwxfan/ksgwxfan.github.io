@@ -1,33 +1,4 @@
-const _version = 1.0;
-
-const doc = document.documentElement;
-const container = document.getElementById("container");
-const recent_row_1 = document.getElementById("recent-row-1");
-const recent_row_2 = document.getElementById("recent-row-2");
-const recent_row_3 = document.getElementById("recent-row-3");
-const recent_row_4 = document.getElementById("recent-row-4");
-const recent_row_5 = document.getElementById("recent-row-5");
-const game_columns = document.getElementById("game-columns");
-const controls_column = document.getElementById("controls-column");
-const controls_frame = document.getElementById("controls-frame");
-const table_recent_calls = document.getElementById("table-recent-calls");
-const button_box = document.getElementById("button-box");
-const container_last_called = document.getElementById("container-last-called");
-const new_game_dialog = document.getElementById("new-game-dialog");
-const options_dialog = document.getElementById("options");
-const color_options = document.getElementById("color-options");
-const help_dialog = document.getElementById("help");
-const call_buffer_toggle = document.getElementById("input-call-buffer-toggle");
-// const call_buffer_time = document.getElementById("input-call-buffer-time");
-const pres_remote_toggle = document.getElementById("input-pres-remote-toggle");
-const call_display = document.getElementById("call-display");
-const newcall_btn = document.getElementById("newcall-button");
-const lastGamebtn = document.getElementById("last-game");
-const log = document.getElementById("logging-container");
-const logging_toggle = document.getElementById("input-logging-toggle");
-const logbtn = document.getElementById("logging-button");
-
-
+const _version = 1.01;
 
 let call_buffer_time = document.getElementById("call-buffer-input");
 let _optbar = document.getElementById("option-bar");
@@ -56,6 +27,7 @@ _optcollapse.addEventListener(
 // new game button
 _optnewgame.onclick = new_game;
 _optrestore.onclick = restore_last_game;
+document.getElementById("kbd-c").onclick = newcall;
 
 const bingo = {
 	min : 1,
