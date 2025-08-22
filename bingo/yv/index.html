@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="../">
+		<title>Bingo Caller - YV</title>
+		<link id="class_name" rel="stylesheet" href="yv/bingo_yv.css">
+		<meta name="author" content="Kyle Gentry">
+		<meta name="keywords" content="bingo">
+		<meta name="description" content="Use this to call a game of bingo. It will show the players the most-recent calls and highlight the calls already made during the game.">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="robots" content="noindex, nofollow">
+		<style>
+
+		</style>
+	</head>
+	<!-- OPTIONS -> Side of call buttons; bg color -->
+	<body link="lightBlue" vlink="lightBlue">
+	<!-- <body link="lightBlue" vlink="lightBlue"> -->
+		<table id="container">
+            <tr id="game-columns">
+                <td id="b" class="bingo-letter">B</td>
+                <td id="i" class="bingo-letter">I</td>
+                <td id="n" class="bingo-letter">N</td>
+                <td id="g" class="bingo-letter">G</td>
+                <td id="o" class="bingo-letter">O</td>
+            </tr>
+            <tr id="r1">
+            </tr>
+            <tr id="r2">
+            </tr>
+            <tr id="r3">
+            </tr>
+            <tr id="r4">
+            </tr>
+            <tr id="r5">
+            </tr>
+            <tr id="r6">
+            </tr>
+            <tr id="r7">
+            </tr>
+            <tr id="r8">
+            </tr>
+            <tr id="r9">
+            </tr>
+            <tr id="r10">
+            </tr>
+            <tr id="r11">
+            </tr>
+            <tr id="r12">
+            </tr>
+            <tr id="r13">
+            </tr>
+            <tr id="r14">
+            </tr>
+            <tr id="r15">
+            </tr>
+		</table>
+		<div id="option-bar">
+			<button id="button-collapse" class="option-button">&lt;&lt;</button>
+			<button id="button-newgame" class="option-button" disabled>New<br/>Game</button>
+			<label for="call-buffer-input">
+				<input id="call-buffer-input" type="number" min="0" max="5" step="1" value="4" />
+				Call<br />Buffer (s)
+			</label>
+			<p id="user-instructions">
+				* Use the <kbd>C</kbd> key or presenter-clicker left/right buttons to initiate a new call.
+			</p>
+			<button id="button-restore" class="option-button" disabled>Restore Last Game</button>
+			<p id="restore-disclaimer">
+				* The restore button will only work when there are &le; <span id="restore-calls"></span> calls in the current game.
+			</p>
+		</div>
+		<button id="button-expand" class="option-button">&gt;&gt;</button>
+
+		<script src="yv/bingo_yv.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
