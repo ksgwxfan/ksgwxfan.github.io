@@ -27,7 +27,7 @@ _optcollapse.addEventListener(
 // new game button
 _optnewgame.onclick = new_game;
 _optrestore.onclick = restore_last_game;
-document.getElementById("kbd-c").onclick = newcall;
+document.getElementById("kbd-c").onclick = new_call;
 
 const bingo = {
 	min : 1,
