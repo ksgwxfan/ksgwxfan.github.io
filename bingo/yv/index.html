@@ -6,7 +6,7 @@
 		<link id="class_name" rel="stylesheet" href="yv/bingo_yv.css">
 		<meta name="author" content="Kyle Gentry">
 		<meta name="keywords" content="bingo">
-		<meta name="description" content="Use this to call a game of bingo. It will show the players the most-recent calls and highlight the calls already made during the game.">
+		<!-- <meta name="description" content="Use this to call a game of bingo. It will show the players the most-recent calls and highlight the calls already made during the game."> -->
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="robots" content="noindex, nofollow">
 		<style>
@@ -58,13 +58,16 @@
 		<div id="option-bar">
 			<button id="button-collapse" class="option-button">&lt;&lt;</button>
 			<button id="button-newgame" class="option-button" disabled>New<br/>Game</button>
-			<button id="button-fs" class="option-button" data-full="0">Toggle FullScreen</button>
+			<button id="button-fs" class="option-button">Toggle FullScreen</button>
 			<label for="call-buffer-input">
 				<input id="call-buffer-input" type="number" min="0" max="5" step="1" value="4" />
 				Call Buffer (s)
 			</label>
 			<p id="user-instructions">
-				* Use the <kbd id="kbd-c">C</kbd> key or presenter-clicker left/right buttons to initiate a new call.
+				<span style="text-decoration:underline">* To make a call:</span><br />
+				&bull; Use the <kbd id="kbd-c">C</kbd> key<br/>
+				&bull; A presenter/clicker (left/right)<br/>
+				&bull; Click the "B" header in bingo
 			</p>
 			<button id="button-restore" class="option-button" disabled>Restore Last Game</button>
 			<p id="restore-disclaimer">

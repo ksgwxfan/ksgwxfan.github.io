@@ -29,6 +29,7 @@ _optcollapse.addEventListener(
 _optnewgame.onclick = new_game;
 _optrestore.onclick = restore_last_game;
 _button_full.onclick = try_fullScreen;
+document.getElementById("b").onclick = new_call;
 document.getElementById("kbd-c").onclick = new_call;
 
 const bingo = {
@@ -208,12 +209,11 @@ function rebuild_bingo_possibilities() {
 }
 
 function try_fullScreen() {
-	// Go Full Screen
-	if (! Boolean(parseInt(_button_full.dataset.full))) {
+	// Go Full Screen - if this is not null (an object/element)
+	if (! document.fullscreenElement) {
 		document.body.requestFullscreen({"navigationUI": "hide"})
 		.then(
 			blah => {
-				_button_full.dataset.full = "1";
 				console.log("success! :: enter fullscreen");
 			}
 		)
@@ -226,7 +226,6 @@ function try_fullScreen() {
 	else {
 		document.exitFullscreen()
 		.then(blah => {
-			_button_full.dataset.full = "0";
 			console.log("success! :: exit of fullScreen");
 		})
 		.catch(err => {
@@ -234,6 +233,7 @@ function try_fullScreen() {
 			throw err;
 		});
 	}
+	_optcollapse.click();
 }
 
 function call_protect(seconds=1) {
@@ -255,16 +255,6 @@ function new_call(ev=null, testspace=null) {
 	//						     specific placement
 	// ---------------------------------------------------------- 
 
-	// clear/reset/re-write ls if a new game has 3+ calls
-	if (bingo.called.length > bingo.restore_calls) {
-		localStorage.removeItem("bingoyv.lastGame");
-		localStorage.setItem("bingoyv.lastGame", bingo.called.toString());
-		_optrestore.disabled = true;
-	}
-	else {
-		
-	}
-
 	let r;
 	// console.log(ev);
 	// Make a new call
@@ -278,7 +268,8 @@ function new_call(ev=null, testspace=null) {
 		}
 		else if (
 			["KeyC", "PageUp", "PageDown"].includes(ev.code) ||
-			ev.target.id == "kbd-c"
+			ev.target.id == "kbd-c" ||
+			ev.target.id == "b"
 		) {
 			// console.log(MIN + Math.floor(Math.random() * (MAX-MIN+1)));
 			r = Math.floor(Math.random() * bingo.possibilities.length);
@@ -322,6 +313,16 @@ function new_call(ev=null, testspace=null) {
 	}
 	else {
 
+	}
+
+	// clear/reset/re-write ls if a new game has > 3 calls
+	if (bingo.called.length > bingo.restore_calls) {
+		localStorage.removeItem("bingoyv.lastGame");
+		localStorage.setItem("bingoyv.lastGame", bingo.called.toString());
+		_optrestore.disabled = true;
+	}
+	else {
+		
 	}
 
 }
