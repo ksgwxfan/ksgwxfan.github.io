@@ -3,7 +3,7 @@
                          North Atlantic Basin                         
 
       Stats calculated for Seasons since 1967 (59 total seasons)      
-                   from January 1 thru September 7                    
+                   from January 1 thru September 8                    
 
     * TS-related Statistics include Hurricanes in their totals except 
                             for landfall data                         
@@ -11,17 +11,17 @@
          * Hurdat2 Landfall data incomplete for seasons 1971-1990     
 * Reported ranks are Dense (value-based) and Competition (if different)
 ----------------------------------------------------------------------
-* Tropical Cyclones: 6             Ranks: 13/15 :: 48/57 (tied w/1 season)
-* TC Track Distance: 7208.7 nmi    Ranks: 47/59
-* TS Distance: 6753.4 nmi          Ranks: 28/59
+* Tropical Cyclones: 6             Ranks: 13/15 :: 49/57 (tied w/3 seasons)
+* TC Track Distance: 7208.7 nmi    Ranks: 48/59
+* TS Distance: 6753.4 nmi          Ranks: 29/59
 * HU Distance: 2272.7 nmi          Ranks: 31/56
-* MHU Distance: 687.3 nmi          Ranks: 21/43
-* Tropical Storms: 6               Ranks: 12/16 :: 28/57 (tied w/9 seasons)
-* ACE: 39.0 * 10^4 kt^2            Ranks: 28/59
-* Hurricanes: 1                    Ranks:   7/8 :: 46/56 (tied w/9 seasons)
-* HDP: 28.9 * 10^4 kt^2            Ranks: 25/56
-* Major Hurricanes: 1              Ranks:   4/5 :: 17/43 (tied w/25 seasons)
-* MHDP: 16.5 * 10^4 kt^2           Ranks: 19/41 :: 19/43
+* MHU Distance: 687.3 nmi          Ranks: 22/44
+* Tropical Storms: 6               Ranks: 12/16 :: 33/58 (tied w/6 seasons)
+* ACE: 39.0 * 10^4 kt^2            Ranks: 29/59
+* Hurricanes: 1                    Ranks:   7/8 :: 47/56 (tied w/8 seasons)
+* HDP: 28.9 * 10^4 kt^2            Ranks: 26/56
+* Major Hurricanes: 1              Ranks:   4/5 :: 18/44 (tied w/25 seasons)
+* MHDP: 16.5 * 10^4 kt^2           Ranks: 20/42 :: 20/44
 * Total Landfalling TC's: 2        Ranks:  8/10 :: 31/47 (tied w/9 seasons)
 * TS Landfalls: 1                  Ranks:   6/7 :: 31/40 (tied w/8 seasons)
 * HU Landfalls: 0                  Ranks:   5/5 :: 33/33 (tied w/26 seasons)
