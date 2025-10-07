@@ -1,0 +1,125 @@
+#phrase-controls {
+	max-width: 1000px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom:0.5em;
+	border: 1px solid white;
+}
+
+#phrase-controls > * {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/* #phrase-controls * {border: 1px solid white;} */
+#phrase-controls select {
+	height: 3em;
+	max-width: 25vw;
+}
+#phrase-controls button {
+	height: 3em;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 0 1em 0 1em;
+	margin: 0.5em 0.25em;
+}
+/* Portrait Modes */
+@media (max-device-aspect-ratio: 1/1) {
+	#phrase-controls {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#phrase-controls select {
+		max-width: 75vw;
+	}
+}
+
+#media-controls {
+	flex-wrap: nowrap;
+}
+#pitch-and-speed {
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+}
+#pitch-and-speed div {
+	margin: 0 1em 0 1em;
+	display: flex;
+	flex-direction: column;
+}
+/* #pitch-and-speed label {margin: 0 1em 0 1em;} */
+
+
+#container-soundboard {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	border: 1px solid white;
+
+}
+
+.voice-list {
+	width: 50%;
+	height: 2em;
+}
+
+.container-phrase {
+	position: relative;
+	text-align: center;
+	background-color: #404040;
+	margin: 0.5em 0.5em;
+	padding: 1em 1em;
+	border-radius: 0.5em 0.5em;
+	flex-grow: 1;
+	max-width: 33%;
+	align-items: center;
+}
+.container-phrase * {
+	margin: .25em 0 .25	em 0;
+}
+
+.close-phrase {
+	position: absolute;
+	bottom: 5px;
+	right:5px;
+	padding: 0 1vmin 0 1vmin;
+	background: rgba(255,255,255, 0.3);
+	user-select: none;
+	cursor: pointer;
+	font-weight: bold;
+	margin: .25em 0 .25	em 0;
+}
+
+.phrase {
+	background-color: rgb(90,90,90);
+	border-radius: 0.3em 0.3em;
+	padding: 0.5em 0.2em;
+	cursor: text;
+}
+
+.play-button {
+	font-size: 1.5em;
+	user-select: none;
+	margin: 0.5em;
+}
+.play-button.pause {
+	transform: rotate(90deg);
+	margin: 0.2em;
+}
+
+.container-phrase span {text-align: center;}
+
+.box-modify-sound {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: middle;
+}

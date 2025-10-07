@@ -61,6 +61,25 @@ function toggle_email() {
 	}
 }
 
+function nothing_to_see_here_01() {
+	let parts = [
+		"rd",
+		"oa",
+		"db",
+		"un",
+		"so",
+		"s_",
+		"tt",
+	];
+	document.getElementById("hidden-a-01").href = parts.slice().reverse().join("");
+	document.getElementById("hidden-a-01").innerText = parts.slice().reverse().join("");
+	document.getElementById("hidden-span-01").innerText = parts.slice().reverse().join("");
+	document.getElementById("hidden-01").style.display = "block";
+}
+try {
+	document.getElementById("activate-hidden-01").onclick = nothing_to_see_here_01;
+} catch (err) {console.log(err);}
+
 
 
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="../">
+		<title>Text-to-Speech Soundboard</title>
+		<link rel="stylesheet" type="text/css" href="pageheader.css"></link>
+		<link rel="stylesheet" type="text/css" href="tts_soundboard/tts.css"></link>
+		<meta name="robots" content="noindex">
+		<style>
+
+		</style>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+	</head>
+	<body>
+		<h1 id="header">Text-to-Speech Soundboard</h1>
+		<div id="phrase-controls">
+			<div id="language-and-voice">
+				<label id="label-lang" for="lang-select">
+					Language: <select id="lang-select" onchange="change_language()">
+					</select>
+				</label>
+				<label id="label-voice-master" for="voice-master">
+					Voice: <select id="voice-master">
+					</select>
+				</label>
+			</div>
+			<div id="other-controls">
+				<div id="pitch-and-speed">
+					<button id="add-phrase" title="Add a new phrase" onclick="add_phrase()">&plus;<br/>ADD</button>
+					<div>
+						<label id="label-pitch-master" for="pitch-master">
+							Pitch:
+							<input id="pitch-master" type="range" min="0" max="2" step="0.25" value="1" />
+						</label>
+						<label id="label-speed-master" for="speed-master">
+							Speed:
+							<input id="speed-master" type="range" min="0.1" max="2.1" step="0.25" value="1.1" />
+						</label>
+					</div>
+				</div>
+				<div id="media-controls">
+					<button id="play-all" title="Plays all speech blocks" onclick="play_all()">&#9654;<br/>ALL</button>
+					<button id="pause" title="Pauses/Resumes Current Speech" onclick="pause_resume()" data-current-state="ready" data-pause="||<br/>PAUSE" data-play="&#9654;<br/>RESUME">||<br/>PAUSE</button>
+					<button id="stop-current" title="Stop Current Speech" onclick="stop_current()">&marker;<br/>STOP</button>
+					<button id="stop-all" title="Stop and Cancel All Further Speech" onclick="stop_all()">&marker;<br/>ALL</button>
+				</div>
+			</div>
+		</div>
+		<div id="container-soundboard">
+
+		</div>
+
+		<div id="footer"></div>
+
+		<script src="header.js"></script>
+		<script src="footer.js"></script>
+		<script src="tts_soundboard/lang_codes.js"></script>
+		<script src="tts_soundboard/tts.js"></script>
+	</body>
+</html>
