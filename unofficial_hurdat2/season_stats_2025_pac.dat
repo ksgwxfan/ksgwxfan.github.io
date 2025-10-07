@@ -1,9 +1,9 @@
 ----------------------------------------------------------------------
                    Tropical Cyclone Stats for 2025                    
-                Central Pacific / East Pacific Basins                 
+                East Pacific / Central Pacific Basins                 
 
       Stats calculated for Seasons since 1967 (59 total seasons)      
-                    from January 1 thru October 5                     
+                    from January 1 thru October 6                     
 
     * TS-related Statistics include Hurricanes in their totals except 
                             for landfall data                         
@@ -11,15 +11,15 @@
          * Hurdat2 Landfall data incomplete for seasons 1971-1990     
 * Reported ranks are Dense (value-based) and Competition (if different)
 ----------------------------------------------------------------------
-* Tropical Cyclones: 18            Ranks:  7/16 :: 19/58
-* TC Track Distance: 19227.0 nmi   Ranks: 28/59
-* TS Distance: 17636.1 nmi         Ranks: 16/59
-* HU Distance: 5531.8 nmi          Ranks: 29/59
+* Tropical Cyclones: 18            Ranks:  6/15 :: 19/58 (tied w/1 season)
+* TC Track Distance: 19524.3 nmi   Ranks: 28/59
+* TS Distance: 17933.4 nmi         Ranks: 15/59
+* HU Distance: 5749.4 nmi          Ranks: 29/59
 * MHU Distance: 1397.7 nmi         Ranks: 26/53
 * Tropical Storms: 18              Ranks:  5/16 :: 10/59 (tied w/2 seasons)
-* ACE: 111.2 * 10^4 kt^2           Ranks: 22/59
-* Hurricanes: 10                   Ranks:  6/13 :: 11/58 (tied w/3 seasons)
-* HDP: 68.9 * 10^4 kt^2            Ranks: 31/59
+* ACE: 114.7 * 10^4 kt^2           Ranks: 21/59
+* Hurricanes: 11                   Ranks:  5/13 ::  9/58 (tied w/2 seasons)
+* HDP: 71.9 * 10^4 kt^2            Ranks: 28/59
 * Major Hurricanes: 4              Ranks:  6/10 :: 20/53 (tied w/8 seasons)
 * MHDP: 30.3 * 10^4 kt^2           Ranks: 26/53
 * Total Landfalling TC's: 1        Ranks:   5/6 :: 22/35 (tied w/12 seasons)
