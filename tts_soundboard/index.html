@@ -13,7 +13,7 @@
 	</head>
 	<body>
 		<h1 id="header">Text-to-Speech Soundboard</h1>
-		<button id="mobile-activate" onclick="speechSynthesis.cancel(); this.remove();">Activate</button>
+		<button id="mobile-activate" onclick="speechSynthesis.cancel(); this.remove();">Activate (may have to wait a few seconds before clicking)</button>
 		<div id="phrase-controls">
 			<div id="language-and-voice">
 				<label id="label-lang" for="lang-select">
@@ -41,9 +41,9 @@
 				</div>
 				<div id="media-controls">
 					<button id="play-all" title="Plays all speech blocks" onclick="play_all()">&#9654;<br/>ALL</button>
-					<button id="pause" title="Pauses/Resumes Current Speech" onclick="pause_resume()" data-current-state="ready" data-pause="||<br/>PAUSE" data-play="&#9654;<br/>RESUME">||<br/>PAUSE</button>
-					<button id="stop-current" title="Stop Current Speech" onclick="stop_current()">&marker;<br/>STOP</button>
-					<button id="stop-all" title="Stop and Cancel All Further Speech" onclick="stop_all()">&marker;<br/>ALL</button>
+					<button id="pause" title="Pauses/Resumes Current Speech" onclick="pause_resume()" data-current-state="ready" data-pause="&#x275A;&#x275A;<br/>PAUSE" data-play="&#9654;<br/>RESUME">&#x275A;&#x275A;<br/>PAUSE</button>
+					<button id="stop-current" title="Stop Current Speech" onclick="stop_current()">&#x25FE;<br/>STOP</button>
+					<button id="stop-all" title="Stop and Cancel All Further Speech" onclick="stop_all()">&#x25FE;<br/>ALL</button>
 				</div>
 			</div>
 		</div>
