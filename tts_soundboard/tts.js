@@ -431,6 +431,7 @@ function play_voice(pnum) {
 	utter.voice = languages.get(lang_select.value)[
 		voice_master.selectedIndex
 	];
+	utter.lang = utter.voice.lang
 
 	utter.pitch = pitch_master.value;
 	utter.rate = speed_master.value;
