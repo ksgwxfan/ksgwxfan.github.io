@@ -21,8 +21,13 @@ ul {
 	white-space: nowrap;
 }
 .info-block.current {
-	width: 85%;
+	width: 85vw;
 	height: 50vh;
+}
+@media screen and (max-width: 600px) and (orientation: portrait) {
+	.info-block.current {
+		width: 90vw;
+	}
 }
 
 #download-box {
