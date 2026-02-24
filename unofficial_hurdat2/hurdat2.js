@@ -12,7 +12,7 @@ function load_data() {
 		.then(txt => {
 			if (txt.length > 0) {
 				document.getElementById(`current-season-atl`).innerText = txt;
-				document.getElementById(`download-atl`).style.visibility = "visible";
+				document.getElementById(`download-atl`).style.display = "inline";
 			}
 			else {
 				document.getElementById(`current-season-atl`).innerText =
@@ -24,7 +24,7 @@ function load_data() {
 		.then(txt => {
 			if (txt.length > 0) {
 				document.getElementById(`current-season-pac`).innerText = txt;
-				document.getElementById(`download-pac`).style.visibility = "visible";
+				document.getElementById(`download-pac`).style.display = "inline";
 			}
 			else {
 				document.getElementById(`current-season-pac`).innerText =

@@ -12,17 +12,15 @@
 	</head>
 	<body onLoad="load_data()">
 		<h1 id="header">Unofficial 2025 Hurdat2</h1>
+		<ul class="disclaimer">
+			<li style="color:pink;">* This page is <u>NOT</u> endorsed nor supported by NOAA or its subsidiaries, including the National Hurricane Center. *</li>
+			<li id="last-updated">--</li>
+		</ul>
 
-		<div class="disclaimer">
-			<p style="color:pink;">* This page is <u>NOT</u> endorsed nor supported by NOAA or its subsidiaries, including the National Hurricane Center. *</p>
-
-			<p>
-				<ul style="color:yellow;">
-					<li id="last-updated">--</li>
-				</ul>
-			</p>
+		<div class="info-block current">
+			<pre id="current-season-atl"></pre>
+			<pre id="current-season-pac" style="display:none"></pre>
 		</div>
-
 		<div id="basin-switch">
 			<label>
 				<input type="radio" name="basin_switch" value="atl" checked onClick="load_basin(this.value)" /> Atlantic
@@ -31,12 +29,6 @@
 				<input type="radio" name="basin_switch" value="pac" onClick="load_basin(this.value)" /> East/Central Pacific
 			</label>
 		</div>
-
-		<div class="info-block current">
-			<pre id="current-season-atl"></pre>
-			<pre id="current-season-pac" style="display:none"></pre>
-		</div>
-
 		<div id="download-box">
 			<a id="download-atl" href="unofficial_hurdat2/current_hurdat2_atl.dat" download>Download Unofficial Current Hurdat2 for the North Atlantic Basin</a>
 			<a id="download-pac" href="unofficial_hurdat2/current_hurdat2_pac.dat" download>Download Unofficial Current Hurdat2 for the East and Central Pacific Basins</a>
@@ -44,26 +36,19 @@
 
 		<hr style="width:85%" />
 		<!-- SEASON STATS -->
-		<div id="year-switch">
-			<label>
-				<input type="radio" name="year_switch" value="2025" checked onClick="load_season_stats(this.value)" /> 2025
-			</label>
-			<label>
-				<input type="radio" name="year_switch" value="2024" onClick="load_season_stats(this.value)" /> 2024
-			</label>
-			<label>
-				<input type="radio" name="year_switch" value="2023" onClick="load_season_stats(this.value)" /> 2023
-			</label>
-			<label>
-				<input type="radio" name="year_switch" value="2022" onClick="load_season_stats(this.value)" /> 2022
-			</label>
-			<label>
-				<input type="radio" name="year_switch" value="2021" onClick="load_season_stats(this.value)" /> 2021
-			</label>
-			<label>
-				<input type="radio" name="year_switch" value="2020" onClick="load_season_stats(this.value)" /> 2020
-			</label>
+		<div id="container-year-switch">
+			<label for="year-switch">Hurdat2 Stats Year:</label>
+			<select id="year-switch" onChange="load_season_stats(this.value)">
+				<option value="2026" selected>2026</option>
+				<option value="2025">2025</option>
+				<option value="2024">2024</option>
+				<option value="2023">2023</option>
+				<option value="2022">2022</option>
+				<option value="2021">2021</option>
+				<option value="2020">2020</option>
+			</select>
 		</div>
+
 		<div class="info-block season">
 			<pre><code id="season-stats">
 
@@ -89,7 +74,7 @@
 		<div id="footer"></div>
 		<script src="header.js"></script>
 		<script src="footer.js"></script>
-		<script src="unofficial_hurdat2/hurdat2.js?v=20250429_0016"></script>
+		<script src="unofficial_hurdat2/hurdat2.js?v=20260223_1934"></script>
 		<script src="unofficial_hurdat2/last_updated.js?v=20250429_0016"></script>
 	</body>
 </html>

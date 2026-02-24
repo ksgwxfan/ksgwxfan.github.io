@@ -1,6 +1,14 @@
 body > div {
 	font-family: sans-serif;
 }
+ul {
+	line-height: 1.5;
+	font-family: sans-serif;
+}
+#last-updated {
+	color: yellow;
+	margin-left: 5ch;
+}
 
 .info-block {
 	margin: 0 auto;
@@ -24,7 +32,7 @@ body > div {
 	flex-direction: column;
 }
 #download-box a {
-	visibility: hidden;
+	display:none;
 }
 
 .info-block.season {
@@ -42,10 +50,10 @@ body > div {
 
 [id$="switch"] {
 	display: flex;
-	align-items: middle;
+	align-items: center;
 	justify-content: center;
 	text-align: center;
-	margin: 1em;
+	margin: 0.5em 0em;
 }
 [id$="switch"] label {
 	margin: 0 1em;
@@ -54,4 +62,7 @@ body > div {
 [id$="switch"] input {
 	transform: scale(2) translateX(-0.1em);
 	border-radius: 0px;
+}
+#year-switch {
+	font-size:1.5em;
 }
