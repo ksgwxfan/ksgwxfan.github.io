@@ -70,9 +70,7 @@ ul {
 	border: 2px outset gray;
 	overflow: scroll;
 }
-#hd2-changes pre {
-	white-space: pre-wrap;
-}
+
 #page-season-stats {
 	margin: 0 auto;
 	width: min(90%, 600px);
@@ -82,6 +80,12 @@ ul {
 		width: 33.3%;
 		font-size: 0.9em;
 	}
+}
+
+#page-hurdat2-changes div {
+	box-sizing: border-box;
+	font-family: monospace;
+	padding: 1em;
 }
 
 #download-box {
