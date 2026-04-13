@@ -68,6 +68,7 @@ function load_basin(new_basin) {
 	if (new_basin != hd2.basin) {
 		// Hide previous basin data
 		document.getElementById(`current-season-${hd2.basin}`).style.display = "none";
+		document.getElementById(`hd2-changes-${hd2.basin}`).style.display = "none";
 
 		// Change and display new basin
 		hd2.basin = new_basin;
@@ -77,7 +78,6 @@ function load_basin(new_basin) {
 		load_season_stats(hd2.year);
 
 		// load basin-specific hd2 changes
-		document.getElementById(`hd2-changes-${hd2.basin}`).style.display = "none";
 		document.getElementById(`hd2-changes-${hd2.basin}`).style.display = "inline";
 	}
 }
