@@ -10,23 +10,75 @@ ul {
 	margin-left: 5ch;
 }
 
-.info-block {
+#notebook {
+	width: 90vw;
 	margin: 0 auto;
+}
+
+#tab-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	 align-items: stretch; 	/*TABS will be equal height */
+	direction: rtl;
+	height: 5em;
+}
+#tab-container > * {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* give an overlap look to all except first (last) element */
+#tab-current {
+	transform: translateX(0);
+}
+#tab-season-stats {
+	transform: translateX(-0.5em);
+}
+#tab-hurdat2-changes {
+	transform: translateX(-1em);
+}
+.notebook-tab {
+	outline: 1px solid white;
+	width: 15vw;
+	background-color: black;
+	text-align: center;
+	border-top-left-radius: 1.2em;
+	border-top-right-radius: 1.2em;
+	user-select: none;
+}
+#basin-switch {
+	direction: ltr;
+}
+#page-season-stats, #page-hurdat2-changes {
+	display: none;
+}
+
+#page-container {
+	
+}
+.notebook-page {
+	width: 100%;
+	height: 100%;
+}
+
+.info-block {
+	width: 100%;
+	height: 50vh;
 	background-color: black;
 	color: LimeGreen;
 	border: 2px outset gray;
-}
-.info-block.current, .info-block.season {
 	overflow: scroll;
 	white-space: nowrap;
 }
-.info-block.current {
-	width: 85vw;
-	height: 50vh;
+#page-season-stats {
+	margin: 0 auto;
+	width: min(90%, 600px);
 }
 @media screen and (max-width: 600px) and (orientation: portrait) {
-	.info-block.current {
-		width: 90vw;
+	.notebook-tab {
+		width: 33.3%;
+		font-size: 0.9em;
 	}
 }
 
@@ -38,10 +90,6 @@ ul {
 }
 #download-box a {
 	display:none;
-}
-
-.info-block.season {
-	width: min(90%, 600px);
 }
 
 .disclaimer {
