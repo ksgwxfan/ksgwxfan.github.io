@@ -69,7 +69,9 @@ ul {
 	color: LimeGreen;
 	border: 2px outset gray;
 	overflow: scroll;
-	white-space: nowrap;
+}
+#hd2-changes pre {
+	white-space: pre-wrap;
 }
 #page-season-stats {
 	margin: 0 auto;
