@@ -1,3 +1,112 @@
 Hurdat2 - East and Central Pacific Basin Changes
+- Updated 04-29-2026
 
-Coming Soon!
+From 2024 to 2025
+-----------------------------
+- CP012024 (HONE)
+  - Genesis for this cyclone was found to occur about ~150nmi east (6hrs) from the original data.
+  - Some positional data around 176W, 22N was changed
+  - Some mostly-insignificant status changes occurred on the last 1.5 days of the track.
+
+From 2023 to 2024
+-----------------------------
+- Extra-tropical entries with `ET` status were changed to a more proper `EX`, for the following cyclones:
+  - EP081972 (HYACINTH), EP101972 (JOANNE), EP021973 (BERNICE), EP031973 (CLAUDIA), EP091973 (IRAH), EP101973 (JENNIFER), EP011974 (ALETTA), EP041974 (DOLORES), EP151974 (ORLENE), EP071975 (GEORGETTE), EP121975 (LILY), EP161975 (PRISCILLA), EP011976 (ANNETTE), EP031976 (CELESTE), EP051976 (ESTELLE), EP091976 (IVA), EP101976 (JOANNE), EP111976 (KATHLEEN), EP121976 (LIZA), EP141976 (NAOMI), EP021977 (BERNICE), EP051977 (EMILY), EP061977 (FLORENCE), EP071977 (GLENDA), EP011978 (ALETTA), EP141978 (NORMAN), EP161978 (PAUL), EP171978 (ROSA), EP181978 (SERGIO), EP011979 (ANDRES), EP091979 (IGNACIO), EP111981 (KNUT), EP011983 (ADOLPH), EP191983 (TICO), EP071984 (GENEVIEVE), EP161984 (ODILE), EP211985 (WALDO), EP171986 (ROSLYN)
+- CP012010 (OMEKA)
+  - A handful of entries were changed from `PT` to `LO`. `PT` probably meant "potential tycoon".
+- The following cyclones had entry statuses changed from `ST` and `TY` (Typhoon and Super Typhoon) to `HU` (Hurricane).
+  - EP072014 (GENEVIEVE), CP012015 (HALOLA), CP032015 (KILO)
+  - of note, EP072014 had its entries changed to `TY` and `ST` from `HU`.
+- EP082018 (GILMA)
+  - This tropical storm was issued a name (may have been a correction).
+
+From 2022 to 2023
+-----------------------------
+- NO SIGNIFICANT CHANGES
+
+From 2021 to 2022
+-----------------
+- EP051962 (UNNAMED)
+  - Appears to be a correction of an overlapping entry position for `1962-08-29 0600Z`
+- CP011963 (UNNAMED)
+  - the latitude for `1963-08-07 0000Z`, which was seemingly corrected in the last HD2, was moved back to its 2020 position.
+- EP101978 (JOHN)
+  - the entry for `1978-08-25 0000Z` seems like it was moved back to its 2020 position.
+- EP131978 (MIRIAM)
+  - the entry for `1978-08-29 1800Z` was shifted south 1deg (60nmi)
+- EP142003 (NORA)
+  - the entry for `2003-10-08 0600Z` had the same position as the 12Z entry; this appears to have been corrected.
+
+From 2020 to 2021
+-----------------
+- EP051962 (UNNAMED)
+  - It appears that two entries had mistakenly been given the same position. The newer database fixed that.
+- CP011963 (UNNAMED)
+  - The TS entry for `1963-08-07 0000Z` had its latitude marker moved southward by 1 degree (60nmi). The track definitely appears to make more sense that way. it was likely a typo fix.
+- EP101978 (JOHN)
+  - The HU entry for `1978-08-25 0000Z` had its longitude shifted west by 1 degree.
+- EP131978 (MIRIAM)
+  - The TS entry for `1978-08-29 1800Z` had its latitude shifted south by 1 degree.
+- EP142003 (NORA)
+  - The entry for `2003-10-08 0600Z` originally had the same positional data as the 12Z entry. This was fixed in this release.
+- CP012018 (WALAKA)
+  - A landfall marker was placed on the `2018-10-04 0620Z` entry, over the French Frigate Shoals islands.
+
+From 2019 to 2020
+-----------------
+- CP012019 (EMMA) was added to the database. This was a mid-October tropical storm occurring ~250nmi west of Hawaii (Kauai)
+
+From 2018 to 2019
+-----------------
+- Addition of Major Hurricane Walaka (CP012018) to the database; it reached 130kt winds as it was traveling northward about 850nmi WSW of Hawaii.
+- EP142018 (LANE)
+  - MHDP index was tweaked downward a little. A ~60nmi segment, ~150nmi WSW of Hawaii, was found to be slightly weaker, which led to categorical changes. A lot of entries had MSLP and peak wind revisions, reflecting higher pressures and wind speeds that dropped a little, leading to the changes in energy indices.
+
+
+From 2017 to 2018
+-----------------
+- EP091961 (SIMONE)
+  - This Nov 1-3 Cyclone was entirely removed from this database. Not sure why. Genesis occurred off of the southern coast of Guatemala and crossed over Mexico into the Gulf of Mexico.
+  - The North Atlantic basin had a tropical storm (INGA; AL111961) that occurred from Nov 4-8. It is possible it was judged that genesis didn't really occur until it reached the gulf.
+- EP031997 (UNNAMED)
+  - Looks like "CARLOS" had mistakenly been assigned to this TC, that never qualified to be named...See next entry
+- EP041997 (CARLOS)
+  - This TS was given the name "CARLOS". It was probably that all along, but a mistakenly "unnamed" in the previous database
+- EP022012 (BUD)
+  - An entry had mistakenly geen given a status of `TD` when it should've been `TS`.
+- CP032015 (KILO)
+  - Around 177W-179W,19N-22N, a ~175nmi stretch of Category 4 strength winds were downgraded to Category 3 segments.
+    - This yielded a slight decrease in the MHDP energy index.
+  - At the end of track, it was found that it remained a TS for an additional 344nmi. Overall, the TC distance was reduced by 120nmi, as most of that difference came at genesis, when it didn't become a TC for 36 hours (~420nmi) later than originally thought.
+  - There were also many entries whose MSLP was changed; most pressures rose compared to the previous data.
+  - HU entries occurring in the West Pacific had their statuses changed to TY, for "Typhoon"
+- CP012016 (PALI)
+  - Position data was tweaked with various cyclone statuses being changed.
+- The following cyclones had accurate track data restored: EP052016 (DARBY), EP132016 (LESTER), EP142016 (MADELINE)
+- EP082017 (EIGHT)
+  - This Tropical Depression received a numeral.
+- EP112017 (ELEVEN)
+  - This Tropical Depression received a numeral.
+- EP142017 (LIDIA)
+  - For some reason, 2 landfall entries were removed. They appeared accurately placed with the cyclones being Tropical Storms. They probably didn't need removing.
+
+From 2016 to 2017
+-----------------
+- It appears that Central Pacific (CP) cyclones from 2015 and 2016 weren't added until this release. Here is a list of the storms added: `CP012015`, `CP022015`, `CP032015`, `CP042015`, `CP052015`, `CP062015`, `CP072015`, `CP082015`, `CP092015`, `CP012016`
+- The following storms had extensions to their lifespans as tropical cyclones (TC) due to finding that their extra-tropical (EX) transitions occurred later than thought. In most cases, TS or HU segments were extended, implying that applicable energy indices were also raised:
+  - EP051957, EP081957, EP101957, EP011958, EP091958, EP101958, EP011959, EP091959, EP041960 (DIANA), EP071960 (HYACINTH), EP011961 (IVA), EP011962 (VALERIE), EP061962 (BERNICE), EP071962 (CLAUDIA), EP081962, EP041963 (JEN-KATH), EP061963 (LILLIAN), EP071963 (MONA), EP011964 (NATALIE), EP021965 (WALLIE), EP051965 (CLAUDIA), EP071965 (EMILY), EP101965 (HAZEL), EP011966 (ADELE), EP081966 (HELGA), EP111966 (KIRSTEN), EP121966 (LORRAINE), EP131966 (MAGGIE), EP021967 (BRIDGET), EP081967 (ILSA), EP091967 (JEWEL), EP141967 (OLIVIA), EP011968 (ANNETTE), EP081968 (HYACINTH), EP141968 (NAOMI), EP161968 (PAULINE), EP061969 (FLORENCE), EP101969 (JENNIFER), EP041970 (EILEEN), EP141970 (NORMA), EP151970 (ORLENE), EP011971 (AGATHA), EP111971 (KATRINA), EP121971 (LILY), EP131971 (MONICA), EP151971 (OLIVIA), EP161971 (PRISCILLA), EP011972 (ANNETTE), EP041989
+- EP072014 (GENEVIEVE)
+  - Previously marked `HU` entries occurring in the West Pacific were changed to `TY`, reflecting the regionally accurate abbreviation for "Typhoon".
+- EP092014 (ISELLE)
+  - Landfall marker placed over Southern Hawaii (Hawaii Island)
+- EP122015 (IGNACIO)
+  - Various positional tweaks occurred
+  - Some entries had their previous MSLP's lowered between 5-10mb
+  - A 160nmi segment near end-of-track was changed from Hurricane (HU) status to Tropical Storm (TS). A net-total of ~90nmi were removed from HU track distance.
+- EP052016 (DARBY)
+  - A 1300nmi segment of mostly TS-strength track was removed in the newer HD2 database (about 6 days-worth of entries). May have been an error to remove so much? It appears they were restored in future HD2 releases.
+  - As a result, ACE dropped appreciably (by ~ 4*10^4 kts^2)
+- EP132016 (LESTER)
+  - over 4000nmi of TC tracks were removed (almost 7 days-worth). This possibly could've been an error as the final listed entry is rated Category 4. It appears they were restored in future HD2 releases
+- EP142016 (MADELINE)
+  - Over 1800nmi of TC tracks were removed (almost 6 days worth). May have been an error. It appears they were restored in future HD2 releases

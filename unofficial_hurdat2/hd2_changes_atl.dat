@@ -1,3 +1,509 @@
 Hurdat2 - North Atlantic Basin
+- Updated 04-29-2026
 
-Coming soon!
+From 2024 to 2025
+-----------------------------
+- NO SIGNIFICANT CHANGES
+
+From 2023 to 2024
+-----------------------------
+- AL071927 (UNNAMED)
+  - track distance was reduced by ~875nmi.
+    - more than likely this was a correction of an erroneous entry, as the original implied a sudden increase in speed from ~1nmi/h to 29nmi/h.
+- AL041946 (UNNAMED), AL101958 (JANICE), AL052005 (EMILY)
+  - Status corrections occurred for these cyclones.
+  - the corrected entries had originally been resolved in the 2019 HD2, but was reverted back to the erroneous statuses in the 2020 release.
+
+From 2022 to 2023
+-----------------------------
+- NO SIGNIFICANT CHANGES
+
+From 2021 to 2022
+-----------------------------
+- AL061941 (UNNAMED)
+  - The positional data for `1941-10-20 1400Z`, which was corrected in the last HD2, was reverted back to the 2020 data, showing its position as equal to 12Z
+- AL151966 (KENDRA)
+  - entries for `1966-10-06`, originally missing, were added-in (4).
+
+From 2020 to 2021
+-----------------------------
+
+- The following cyclones were found in previous HD2s but removed in this one:
+  - AL021967, AL041967, AL051967, AL061967, AL071967, AL081967, AL091967, AL101967, AL201967, AL221967, AL261967, AL041968, AL071968, AL111968, AL011969, AL021969, AL041969, AL101969, AL111969, AL141969, AL181969, AL061970, AL171970
+- The following cyclones were added, unique to this HD2:
+  - AL121966, AL131966, AL141966, AL151966 (KENDRA), AL161966, AL171966, AL271967, AL281967, AL161968, AL301969, AL201970, AL211970, AL221970, AL231970
+- AL011870 (UNNAMED)
+  - landfall marker placed on the Mississippi coastline
+- AL131887 (UNNAMED)
+  - landfall marker placed on the Louisiana coastline
+- AL061941 (UNNAMED)
+  - The landfall entry for `1941-10-20 1400Z` appears that it originally had the same positional data as 12Z. The update places the entry on the Florida coastline.
+- AL071944 (UNNAMED)
+  - This Major Hurricane was upgraded to a Cat 5, with a 225nmi stretch NE of the bahamas upgraded to 140kts peak wind, with the minimum MSLP receiving significant deepening, from 940mb to 918mb.
+    - Energy indices all received a bump upward because of this.
+- AL011966 (ALMA)
+  - Peak winds were diminished, from 110kts to 100kts, a "low-end" Cat 3, and span of such winds shortened.
+  - total TC track distance decreased as it was deemed to lose TC characteristics ~100nmi east of DelMarVa, trimming almost 350nmi from its track.
+  - landfall markers (3) placed along the northerly trajectory of this major hurricane, from Cuba to Florida.
+- AL021966 (BECKY)
+  - Peak winds were revised upward, from 65kt to 75kt.
+  - A 6-hr offset was given to it reaching Hurricane designation.
+  - That strength would persist longer than thought too, continuing to pack HU-strength winds after it became extra-tropical for a short period.
+  - Total track distance as, at-least a Tropical Storm, was extended for ~ 300nmi. 
+- AL031966 (CELIA)
+  - Genesis occurred ~165nmi SE from originally thought, but lost TC character for ~800nmi, just 24hr after genesis. It didn't form back into a TC until it was over the Bahamas. In all, track distance was trimmed by over 930nmi.
+  - HU track distance diminished by over 400nmi.
+  - Important track revisions were made over the Bahamas. It was found that the system curved northward, about 40nmi east from where the original data implied.
+- AL041966 (DOROTHY)
+  - track revisions occurred, nothing major, but it is implied from it that genesis occurred ~65nmi SE from original.
+  - Several entries had their peak winds bumped, which did nominally affect energy indices.
+- AL051966 (ELLA)
+  - This became a TS, qualifying for a name, about 360nmi, to the ESE, a full day earlier than thought.
+  - But its final track occurred 12H, ~150nmi sooner than original data showed.
+  - Entries occurring from about 11N to 17N, accounting for about 3 days of track-points, were shifted South by ~60nmi at the start of the track, with diminishing deltas nearing the end of the period stated.; track kept its general shape though.
+- AL061966 (FAITH)
+  - track revisions yielded a 1700nmi track distance decrease. The cyclone went extra-tropical that much sooner, a span of 2 days, 6 hours sooner. This, as one would expect, lowered energy indices by a large amount. Instead of being a top-25 cyclone, in terms of ACE, it dropped to about #70.
+  - A 700nmi segment, between 37N and 47N, was upgraded to Cat3 winds. Total MHU track distance increased by ~575nmi. It was in this area where revised peak winds (105kt) occurred. Originally, the Cat3 segment north of the Bahamas was where the peak intensity entry was located.
+- AL071966 (GRETA)
+  - track positional revisions were made.
+  - TS status was met ~150nmi further SE than originally declared. But it did lose its TS status about 100nmi sooner.
+- AL091966 (INEZ)
+  - Peak intensity increased, making this a Cat 5 hurricane (from 130kts to 140kts). A 300nmi segment, originally of Cat4 strength, was upgraded to Cat 5 as it approached Hispaniola.
+  - Other intensity-related revisions were made, but all-in-all, MHU track decreased by about 200nmi, with total HU distance falling by ~130nmi. Associated energy indices also fell.
+  - 9 landfall markers were placed along its ~4300nmi track (#44 all-time).
+- AL101966 (JUDITH)
+  - Life as a tropical storm was extended by 111nmi.
+  - landfall marker placed over the Lesser Antilles.
+- AL111966 (LOIS)
+  - total track distance was revised down, by ~850nmi.
+    - Genesis occurred over about 450nmi and 2.5 days later that previous data.
+	- Newer data showed it went post-tropical about 350nmi earlier and 36hr sooner.
+- AL031967 (UNNAMED)
+  - major track revisions to this cyclone that was upgraded to a tropical storm (TS).
+  - Total track increased by ~110nmi.
+  - A 330nmi segment was upgraded to TS status.
+  - TS landfall marker placed west of Wilmington, NC.
+- AL111967 (ARLENE)
+  - revisions yielded an increase in HU track distance, about 280nmi, with a number of entries receiving increases in wind readings.
+- AL121967 (CHLOE)
+  - The cyclone became a TS much sooner (700nmi; 2 days) that original data showed, but also became a Hurricane much later compared to previous data (42hrs; 470nmi)
+  - But, a nearly 1600nmi mostly west-to-east span, between 35N and 45N had winds upgraded between 5 to 10kts, making the segment Category 2. This increase was small and HDP actually ended up dropping, because of the delay mentioned in the previous comment.
+- AL131967 (BEULAH)
+  - A number of key intensity changes occurred with this cyclone:
+    - As it passed south of Hispaniola, a Cat4 segment was reduced from 240nmi to 90nmi.
+    - Prior to the landfall on the Yucatan, a long stretch of Cat3 winds were revised down to Cat 1 and Cat 2 intensities, although it did show a strengthening to Cat 3 at landfall there. Afterward, it weakened appreciably more than the previous database indicated.
+    - The 156nmi track of Cat5 winds was revised to only a 50nmi span, making its last landfall on the Mexico/Texas border, a category 4 landfall.
+  - Overall, HU and MHU distance and all energy indices were reduced appreciably.
+  - At the end of the cyclone, it was determined that it reamained a tropical cyclone for an additional ~350nmi.
+  - 4 landfall markers added.
+- AL141967 (DORIA)
+  - As the Hurricane spun west-to-east along 43N, about 300nmi east of Maryland, it was upgraded to Cat 2 strength, reaching 85kt instead of 75kt, which was in previous data.
+  - A net of 200nmi of track was downgraded from a hurricane to a tropical storm. Despite this, ACE increased a little bit, probably due to the aforementioned instensity upgrade.
+  - Decay of the cyclone was found to occur ~350nmi and 2.5days earlier than the previous database showed. This didn't affect ACE as the segment was listed as a tropical depression prior to.
+  - A TS landfall marker was placed along the NC outer-banks.
+- AL151967 (UNNAMED)
+  - some wind/mslp data was included to fill the gaps.
+  - A nearly-600nmi stretch was downgraded from a tropical cyclone to a Low pressure system, before becoming a tropical depression again.
+- AL161967 (UNNAMED)
+  - This cyclone was upgraded to a tropical storm with 40kt winds, for a ~350nmi period.
+  - But it did not become a tropical cyclone 700nmi west (2.5days) from the previous track.
+- AL171967 (UNNAMED)
+  - The genesis of this tropical cylclone depression occurred 165nmi west (and 24hrs later) from indicated by the last database.
+- AL181967 (EDITH)
+  - This cyclone became a tropical storm ~120nmi (and 12hrs earlier) further east, compared to the previous data.
+- AL191967 (FERN)
+  - Peak winds for this hurricane dropped from 75kt to 65kt.
+  - The longevity at hurricane strength (and HDP) was greatly reduced (~200nmi).
+- AL211967 (GINGER)
+  - This cyclone became a remnant low ~160nmi sooner than previous data displayed.
+  - Various track points were revised, moving a small amount, between 30 and 50nmi in most cases
+- AL231967 (UNNAMED)
+  - The original data for this cyclone appeared to be incomplete, judging it vs. the vast changes in this newer track.
+  - Originally thought to have become a TC just north of Hispaniola, this system didn't achieve that until it was moving North, about 130nmi east of the NC outer banks.
+  - This remained a TC for less than a day, becoming post-tropical 90nmi off-shore from Massachusetts.
+- AL251967 (HEIDI)
+  - This remained a TS+ tropical cyclone for 430nmi more than the last database displayed. It also remained a TC for about 180nmi longer.
+  - Intensities were slightly reduced among many entries (including maxwinds by 5kt), which yielded a small decrease in HDP.
+- AL011968 (ABBY)
+  - A mostly-inland, 216nmi track over western NC, was downgraded from a tropical cyclone to a remnant low, prior to regaining it after moving off-shore again.
+  - Minimum MSLP rose by 27mb (965mb to 992mb)
+  - 3 TS landfall markers were added; 1 in far-western Cuba, and 2 in Florida.
+- AL021968 (BRENDA)
+  - the last 470nmi of this track was found to be post-tropical, so it was marked as such.
+- AL031968 (CANDY)
+  - TS status was extended for an additional 306nmi.
+  - TS Landfall marker added on TX coast.
+- AL051968 (DOLLY)
+  - Status revisions resulted in a net ~310nmi decrease in track distance, but its track of being a TS or HU was extended by over 650nmi.
+  - As such, ACE saw a jump.
+- AL061968 (UNNAMED)
+  - positional data was tweaked for this TD, resulting in a reduction in track distance by ~215nmi.
+- AL081968 (EDNA)
+  - Signficant status revisions were made which shortened the distance traversed by over 1000nmi, and as a TS by over 230nmi.
+  - Minimum MSLP was raised by 7mb.
+- AL091968 (UNNAMED)
+  - The distanced traveled by this subtropical, hurricane-strength cyclone was cut-down by 1000nmi, with its TS/HU distance dropping by nearly 600nmi.
+- AL101968 (UNNAMED)
+  - Changes made to this TD saw a reduction of almost 800nmi from its original track.
+- AL121968 (FRANCES)
+  - ~160nmi was added to the TS track
+  - The first 550nmi of this track was found to be sub-tropical.
+- AL131968 (UNNAMED)
+ - wind and limited mslp data was added to this TD.
+ - track revised down by over 400nmi.
+- AL141968 (GLADYS)
+  - Maxwind was increased from 75kt (Cat 1) to 85kt (Cat 2), which so happened at landfall.
+  - Minimum MSLP revised to a higher pressure (+12mb)
+  - This hurricane went extra-tropical almost 600nmi sooner than previous data showed.
+    - This directly resulted in HDP notably dropping.
+- AL151968 (UNNAMED)
+  - This cyclone was found to be sub-tropical for its lifespan.
+  - track length for this system was reduced by 270nmi.
+- AL031969 (UNNAMED)
+  - track distance for this TD was revised down by 200nmi.
+- AL051969 (UNNAMED)
+  - track revisions for this TD resulted in its track being decreased by over 100nmi.
+- AL051969 (UNNAMED)
+  - Thought net track distance itself did drop by about 80nmi, there were two sections of important changes to this track.
+    - structure diminished NE of Cuba and Hispaniola, losing TC characteristics, for about 680nmi before regaining TC (and TS) status.
+	- 660nmi was ADDED to its track, north of 40N, between 63W and 47W.
+  - The amount of track spent as a Tropical Storm ended up increasing by ~970nmi. This was mostly due to the track addition mentioned above, as most of the track taken away was originally designated as a tropical depression. The other primary addition was a ~270nmi span while off the NC coast.
+  - the track bowed about 100nmi closer SW to the Lesser Antilles
+- AL071969 (BLANCHE)
+  - this cyclone tracked in Hurricane status for 250nmi less than the previous database showed (it became post-tropical that much distance sooner).
+  - total track distance was only reduced by ~145nmi as it was found that genesis occurred a little further south that previous data.
+- AL081969 (DEBBIE)
+  - major track revisions for this major hurricane occurred.
+  - the key changes include track distance shrinking by nearly 1400nmi, as extra-tropical transition occurred ~41N instead of 60N+.
+  - Many effectual intensity alterations occurred. Peak winds were found to increase to an upper-end Category 3, but most revisions were net negative in direction, reductions were as follows:
+    - MHU track distance plummeting by nearly 800nmi
+	- HU distance down by almost 1000nmi
+	- All energy indices dropped by effective amounts.
+  - substantial reduction in tracking as a major hurricane
+- AL121969 (EVE)
+  - tropical storm tracks were extended by ~ 130nmi.
+- AL131969 (FRANCELIA)
+  - Peak intensities, which occurred upon approach to a Belize landfall, were found to be considerably weaker that originally thought with max winds dropping from 100kt to 85; from Cat 3 to Cat 2.
+  - Landfall marker added
+- AL151969 (UNNAMED)
+  - track revisions yielded a track distance of an 820nmi decrease for this TD.
+- AL161969 (GERDA)
+  - track distance was reduced by about 230nmi, with genesis occurring later than thought.
+  - MHU track was also reduced by a similar amount, with 90kt (Cat2) winds found ~150nmi east of Delaware instead of previous data that indicated 110kts (Cat3).
+  - This cyclone also became a hurricane about 120nmi later than thought.
+  - A Cat1 landfall marker was placed over Maine, where prior-to, it was an implied Cat2 at landfall.
+- AL171969 (HOLLY)
+  - This cyclone was found to have a much shorter length, by 500nmi (and 1.5days) shorter.
+  - life as a hurricane was reduced by quite, 275nmi less and 2 days shorter.
+    - HDP dropped a bit because of this.
+	- ACE did too, but was more affected by the shorter life at TS+ strength.
+- AL191969 (UNNAMED)
+  - revisions include time shifts and general but slight westward shift of the track, increasing track length by ~160nmi.
+    - it showed the cyclone coming ashore on the Florida panhandle.
+- AL201969 (INGA)
+  - The complex, looping track of this hurricane had some notable revisions, primarily to intensity and attributes related to that.
+  - Peak intensity slightly dropped, only by 5kts, but this took it from a Major hurricane (Cat 3) to a high-end Cat 2 (95kts).
+  - It also was a hurricane for 600nmi less for its track than previous databases showed.
+  - These revisions yielded a large decrease in ACE and, especially, HDP.
+- AL211969 (UNNAMED)
+  - The primary change here was the extension of its life, by around 225nmi as a hurricane, and as a TC, by 145nmi. The offset came because it didn't become a TC until later than previous data indicated.
+- AL221969 (UNNAMED)
+  - Minimum MSLP rose by 14mb, from 990mb to 1004mb.
+  - the track shape was revised, from a wavy/'S' shape, to one that looks more like a 'U'. This resulted in track life being reduced by almost 400nmi.
+- AL231969 (UNNAMED)
+  - The track of this subtropical storm was extended by 700nmi, most of which was over land, travelling north from the Florida panhandle to Ohio.
+  - Landfall marker added on Florida.
+- AL241969 (JENNY)
+  - life was reduced by 500nmi, and almost 2 days.
+  - Apparently it probably dissipated just offshore of Florida instead of going back west over the Gulf.
+  - TS landfall marker placed over Florida
+- AL251969 (KARA)
+  - Peak intensity fell from 90kt (Cat2) to 80kt (Cat1).
+  - total distance tracked fell by over 1000nmi, mostly thanks to the cyclone going post-tropical SSE of Newfoundland (49W), instead of 30W.
+    - ACE and HDP dropped because of these factors.
+- AL261969 (LAURIE)
+  - Peak intensity fell from 90kt (Cat2) to 80kt (Cat1). as it was in the Central Gulf.
+- AL271969 (UNNAMED)
+  - track shape changed quite a bit, becoming mostly meridional in shape.
+  - life as a TS was found to occur for an additional 120nmi.
+- AL281969 (UNNAMED)
+  - Peak intensity was increased from 65kt to 80kt
+  - This stayed as a hurricane for much longer than thought, an increase of 570nmi (and of course HDP increased by a notable amount).
+  - But it didn't form as a tropical cyclone for almost 400nmi and 1.5 days later than original data showed.
+- AL291969 (MARTHA)
+  - Genesis of this eventual hurricane occurred over the Gulf, about 100nmi NE from what previous best track data had available.
+  - A TS landfall marker was placed over Panama.
+- AL011970 (ALMA)
+  - 418nmi more of TS+ track was added to this storm as it was shown that as it progressed NE over the GA and Carolina Coastal Plains, it regained TS status.
+- AL021970 (BECKY)
+  - This became a tropical storm about 120nmi and 12hr sooner than originally detailed. It also remained a TS for about 90nmi (6h) later.
+  - A TS landfall marker was placed over the Florida panhandle.
+- AL031970 (UNNAMED)
+  - Smoothing refinements were made to the track of this TD
+  - Genesis occurred later, with early entries shifted south; meridional entries towards its end were shifted westward.
+    - In all, about 230nmi was shaved off the track life.
+- AL041970 (CELIA)
+  - Intensity increased, from a 110kt Cat 3, to a 120kt Cat 4.
+  - Impactful intensity revisions were also made during its life trekking across the Gulf, staying a Cat 1, instead of elongated runs of a Cat2+ strength.
+  - Hurricane status was found to occur a net ~130nmi more.
+  - 2 landfalls were placed: 1 over western Cuba, and a Cat 4 landfall on the TX coast line.
+- AL051970 (UNNAMED)
+  - the track for this TD was shifted, mostly south by ~30nmi.
+- AL071970 (UNNAMED)
+  - track distance was reduced by almost 1500nmi.
+  - this was due to this TD becoming a mere disturbance in the middle of its life for about 4.5 days.
+- AL081970 (UNNAMED)
+  - this former strong tropical storm was revised upward, to a hurricane with peak winds at 70kts. It didn't become an HU until it was north of 39N.
+  - Genesis was discovered to occur just offshore of Africa. It remained a TC for most of its track to the original designated Genesis point, just NE of the Bahamas. This resulted in a track distance increase by over 3200nmi.
+  - ACE was appreciably increased because of various TS bouts along the significantly-updated track, and due to the upgrade to a 750nmi trek as a Hurricane.
+  - 2 TS landfall markers were placed along the NC outer banks.
+- AL091970 (DOROTHY)
+  - track distance was reduced by ~620nmi, with genesis occurring further east and decay further west than original data showed.
+  - landfall marker placed over the Lesser Antilles.
+- AL101970 (UNNAMED)
+  - the former track of this cyclone seemed incomplete compared to the extensive revision of the newer track.
+  - It was found to be a TS with 40kt winds, instead of a tropical depression.
+  - It remained a TC for over an additional 1000nmi, showing its final entry just north of Hispaniola at 70W instead of 53W.
+- AL111970 (UNNAMED)
+  - it appears that the track for this TD was simply shifted eastward by ~1deg longitude.
+- AL121970 (ELLA)
+  - this cyclone was found to become a TS about 221nmi and 42hrs earlier than previous best-track data indicated.
+  - Minimum MSLP dropped from 967 to 962
+  - the drop in wind speeds for entries leading up to landfall seem to be the culprit in energy indices decreasing.
+  - 2 landfalls were added, both in Mexico: 1 on the east coast of Yucatan and 1 on the Gulf coastline south of texas.
+- AL131970 (FELICE)
+  - This cyclone kept TC status for ~180nmi longer, most of which occurred inland as it moved west to east across Oklahoma.
+  - Slight drop in min-MSLP (-7mb)
+  - landfall marker added to the TX coastline.
+- AL141970 (UNNAMED)
+  - This TD was downgraded to a remnant low 12hrs and ~140nmi sooner than shown by the previous database.
+- AL151970 (UNNAMED)
+  - Complex changes occurred for the track and progression of this cyclone, originally tagged as a mere tropical depression.
+  - Genesis occurred much later. Originally, it was shown to have formed off of the coast of Africa (~15W), but newer data showed it occurred ~55W, ~2400nmi west of the original placement and ~8 days later.
+  - The cyclone persisted after losing TC character for about 5 days and then rejuvenated into a TC again, about 1900nmi to the east, this time eventually strengthening into a Hurricane (75kt max) as it meandered around 35N.
+  - A net total decrease of about 1100nmi of track occurred
+- AL181970 (UNNAMED)
+  - track distance revisions were the most notable change.
+  - As it became EX around 42N instead of 47N, its hurricane trek (and generally as a TC) fell by 400nmi.
+- AL191970 (UNNAMED)
+  - Peak intensity upgraded to a Category 2 (85kt) with significant expansion of hurricane track (~ +650nmi)
+  - min-MSLP was found to actually be higher (+7mb)
+- AL112003 (GRACE)
+  - TX landfall marker shifted south by 24nmi.
+
+From 2019 to 2020
+-----------------------------
+- AL041946 (UNNAMED)
+  - A landfall marker on Great Abaco, Bahamas, had its status change from HU to TS. But its wind speed is still marked at 65kts, signifying that it should've been revised down to TS speeds or that it was a mistake that the status was downgraded. This had been corrected in the previous HD2, but this error crept back into the database.
+- AL101958 (JANICE)
+  - Landfall markers over the Bahamas (New Providence and Current Island), whose winds are marked as 60kt (strong TS) had their statuses changed back to HU (which would be erroneous, 1 of the 2 attributes). This was changed in the previous HD2 for corrections as well.
+- AL071963 (FLORA)
+  - This cyclone had a HU segment, the same which was revised to HU in the last HD2, retrograded back to an extra-tropical segment (what it was in the 2018 HD2). As such, the additional 160nmi added to hurricane track distance was taken away.
+- AL061992 (CHARLEY)
+  - The TS landfall marker over the Azores, that was added in the previous database, was removed.
+- AL131995 (LUIS)
+  - A landfall marker that was placed over Barbados (Lesser Antilles) at 12Z on Sept 5, was removed.
+  - Category 4 strength winds were found to be supported for an additional 300nmi, NE of the Dominican Republic.
+  - peak intensity was found to reach 130nmi instead of 120nmi, while it was ~275nmi east of the Lesser Antilles.
+  - Major Hurricane track (Cat3+) was extended by 121nmi)
+  - Interestingly, total hurricane track distance was reduced substantially, about 1100nmi. That stretch was downgraded to being post-tropical. But it was also found this same stretch had category-2 equivalent winds, even reaching 105kts (Cat3) for about a 300nmi span.
+- AL052005 (EMILY)
+  - A segment over Mexico, south of Texas, had its status change to TS, though it had 70kt (HU) winds. This had been fixed in the previous HD2, but this error made it into this database somehow.
+
+From 2018 to 2019
+------------------------------
+- AL041946 (UNNAMED)
+  - A landfall entry's status was erroneously set to `TS` when it should've been set to `HU`. This was corrected.
+- AL101958 (JANICE)
+  - A landfall entry's status was erroneously set to `HU` when it should've been set to `TS`. This was corrected.
+- AL071963 (FLORA)
+  - About 300nmi SSE of Greenland, The cyclone briefly regained TC characteristics and as such was determined to be a Hurricane again for a 6-hour, 160nmi window before going extra-tropical again.
+- AL061992 (CHARLEY)
+  - A TS landfall marker was placed over the Azores Islands
+- AL052005 (EMILY)
+  - An entry, about 85nmi south of Rio Grande City, TX (so, in Mexico) was changed to Hurricane status, as it was wrongly labeled as a Tropical Storm (TS) previously
+- AL042017 (FOUR)
+  - Previously "Unnamed", this Tropical Depression was numbered in this release.
+- AL112018 (ELEVEN)
+  - Previously "Unnamed", this Tropical Depression was numbered in this release.
+
+From 2017 to 2018
+- Most notable changes occurred for Early-1960s Tropical Cyclones
+- AL011961 (Anna)
+  - Downgraded from a Category 3 to Category 2 Hurricane, with maxwinds dropping from 100kts to 90kts. Energy indices decreased as a result
+  - TC Distance actually increased over 900nmi. Most of this difference was the result of TC genesis occurring further east than originally documented.
+  - Landfall markers (3) were added
+- AL021961 (Betsy)
+  - TC Distance decreased by > 1000nmi. Extratropical transition occurred much further west than previously noted.
+  - The track distance of category 4 strength winds were reduced by over 250nmi. Total Major Hurricane (Cat3+) strength distance was also reduced by nearly that amount
+- AL031961 (Carla)
+  - Maxwinds significantly reduced from 150kts (Cat5) to 125kts (Cat 4).
+  - TX landfall indicator added
+- AL041961 (Debbie)
+  - Significant decrease in maxwinds: From 105kts (Cat3) to 80kts (high-end Cat1)
+  - Significant decrease in track distance by > 1000nmi; Post-tropical transition happened much earlier and west than documented originally; Previous best-track data showed the system maintaining tropical designation as it approached Ireland.
+  - Landfall marker added at the Cabo Verde Islands
+- AL051961 (Esther)
+  - There was a handful of intensity changes to this cyclone.
+    - Major Hurricane status was found to occur 700+nmi west (almost 3-days later) than previous data indicated
+	- Though Category 4+ strength was maintained for a shorter amount of time, it was found that Category-5 peak-intensity, with a large uptick in maxwinds, occured (from 115kts to 140kts). This was accompanied by a peak min-mslp dropping by 8mb
+  - Landfall markers (3) were added over the northeastern US.
+- AL061961 (UNNAMED)
+  - This cyclone reached Tropical Storm status north of the Bahamas (~300nmi south of previous data)
+  - This system's life as a tropical cyclone was decreased by over 350nmi, which difference came at the end of the track of the system.
+  - Landfall markers (4) were added along the US east coast
+- AL071961 (FRANCES)
+  - An a slight increase in peak-intensity, with Category 4 winds, were found to occur just north of Bermuda
+  - Landfall markers (2) were added in the Caribbean
+- AL081961 (GERDA)
+  - TS designation was found to occur just north of Cuba, ~ 650nmi SSW from where originally thought. Extratropical transition was also found to occur over 200nmi SW from where original data showed.
+  - Though it didn't effect any TC-related statistics, while post-tropical, wind speeds were found to reach Cat-1 strength just south of Nova Scotia.
+- AL091961 (HATTIE)
+  - Genesis occurred ~160nmi east than previous data showed.
+  - Cat 5 strength was found to be sustained for 90+nmi less than originally thought. Major Hurricane strength initially occurred ~80nmi north from where previously indicated.
+  - landfall marker added over Belize.
+- AL101961 (JENNY)
+  - Genesis occurred ~380nmi NNE from where originally thought
+  - But tropical cyclone status was maintained for ~950nmi further than the 2017 Hurdat2 indicated, dissipating ~ 450nmi east of Newfoundland. As a result, ACE appreciably increased.
+- AL111961 (INGA)
+  - Genesis occurred ~100nmi to the east vs. previous hurdat2.
+- AL121961 (UNNAMED)
+  - This mid-November cyclone (reached TS-strength) was added to the database, occurring over the mid-North Atlantic, and trekked for ~1300nmi.
+- AL011962 (ALMA)
+  - peak intensity was weakened by 10kts, taking it from a Category 2 cyclone, to Category 1.
+- AL021962 (BECKY)
+  - maintained TS status for over 600nmi longer (started sooner and ended later than original data showed).
+- AL031962 (CELIA)
+  - TS status was held for nearly 800nmi longer than previous hurdat2, which made a small, but notable difference in ACE.
+- AL041962 (DAISY)
+  - Though it was found to maintain a Category-2 Hurricane status for ~150nmi more than previous, it was also found to be a hurricane for nearly 400nmi less, and a tropical cyclone for nearly 300nmi less.
+- AL051962 (ELLA)
+  - Peak intensity was found to be a high-end category 2 hurricane (95kts) instead of category 3, with a rise in previously-held minimum mslp (by +8mb)
+- AL061962 (UNNAMED)
+  - This early-July tropical storm was added to the database, forming over the outer-banks of North Carolina. It remained a TS, heading east across the Atlantic, for ~650nmi.
+- AL071962 (UNNAMED)
+  - This late November/early-December Category 1 hurricane was added. It formed and meandered ~200-350nmi SE of the Carolina coastline, reaching 80kts in intensity and remaining a tropical cyclone for over 1100nmi. Interestingly, prior to becoming a tropical cyclone, it had meandered as a strong cyclone with category-1 strength winds for ~370nmi.
+- AL011963 (ARLENE)
+  - Peak intensity was upgraded from 90kts (Category 2) to 100kts (Category 3).
+  - A landfall marker was placed on Bermuda. Though no marker was in-place in the 2017 Hurdat2, it was implied that the cyclone was a Category 1 hurricane. But a significant increase in intensity (+20kt; high-end category 2) was found at landfall. Only 2 other storms (AL032010-Karl and AL162016-Otto) have a stronger peak wind with at-least the same (or higher) MSLP recorded at landfall.
+  - Another notable change was hurricane track distance decreased by over 350nmi. The bulk of this difference was due to previous data showing its initial hurricane designation 6 days earlier in its life and much further to the Southeast, while it was around 13deg N. But the newer data showed it didn't become a hurricane until it was around 28deg N.
+- AL021963 (BEULAH)
+  - The primary changes occurred with Hurricane track distance. This variable decreased by ~ 330nmi. It was deemed to become gain its status a little further in its track and also lost that status a little earlier in its life.
+  - Due to that, and a ~300nmi stretch of category 2 intensity being downgraded to category 1, the `HDP` index subsequently had a notable decline.
+- AL031963 (UNNAMED)
+  - This was upgraded from a tropical storm to a Category 1 hurricane. As such, `ACE` was increased by a small amount.
+- AL041963 (CINDY)
+  - This system was downgraded from a category 1 hurricane to a tropical storm (peak winds from 70kts to 55kts)
+  - A landfall marker was placed over SE Texas
+- AL051963 (DEBRA)
+  - This cyclone maintained hurricane strength for a shorter period of time, but was found to maintain at-least tropical storm strength for over ~360nmi more.
+- AL061963 (EDITH)
+  - this was found to have a shorter hurricane life, by ~400nmi less, but was deemed to become a tropical storm 12 hours than ealier thought which led to a longer life as that status (~ +150nmi)
+  - Landfall markers (3) added around the Lesser Antilles, Dominican Republic, and Bahamas
+- AL071963 (FLORA)
+  - Peak intensity was increased, showing a min-mslp drop by 8mb and slight bump in max-sustained winds (125kt->130)
+  - Life as a Tropical Cyclone was reduced by over 1200nmi. Genesis was observed to take place ~800nmi west from where the earlier version did. The cyclone also became extratropical ~400nmi SW from previous too. It was discovered that it still had category 2 strength when it became post-tropical though. 
+  - Life as a Major Hurricane was also found to be significantly less than previous data depicted, by almost 1000nmi. It was determined that MHU status wasn't achieved for almost 3 days later (~500nmi to the NW) than previously reasoned. In addition, a ~360nmi swath SE of Bermuda, was considered to be Category 2 strength instead of Category 3. Distance traversed as a category 4 hurricane also decreased by ~450nmi.
+  - As a result of the above, Energy indices, `ACE`, `HDP`, and `MHDP` all dropped by a very noticable amount.
+  - 5 landfall markers were added, most across the Caribbean, but 1 of them is placed about 500nmi due-north of Puerto Rico, where there doesn't seem to be any land. Maybe a mistake.
+- AL081963 (GINNY)
+  - Some modifications were tweaked to the Category-2 segments. It actually remained a Category 2 Hurricane for ~200nmi longer than older data showed, as it traversed Nova Scotia.
+  - Recorded Minimum MSLP was also lowered (strengthened) by 10mb (948mb).
+  - Landfall marker was added over Nova Scotia.
+- AL091963 (HELENA)
+  - Its existence as a tropical cyclone was extended by over 330 nmi.
+  - A landfall marker was added over the Bahamas.
+- AL101963 (UNNAMED)
+  - This early-June tropical storm was added to the database.
+  - It retained its TS status for ~750nmi for its predominantly northerly track.
+  - It made landfall over the outer-banks of NC with 50kt winds.
+- AL011964 (UNNAMED)
+  - The primary modification to the tropical storm was refinement of track points.
+  - Max-winds were upped in strength, from 50kt to a high-end tropical storm at 60kt.
+- AL021964 (UNNAMED)
+  - This cyclone was upgraded to a Category 1 hurricane, with a substantial increase in peak winds being found (from 45kt to 75kt), reaching that strength as it trekked northeastward, about 550nmi south of Newfoundland.
+  - Though its total time as a TC was reduced by ~500nmi, it was found to acquire/maintain at-least TS strength for much longer, by ~ +1100nmi. Originally, it was designated as a tropical depression (TD) for the first 1500nmi of its life. But the newer database specified it as being TS strength.
+  - As a result, `ACE` generated from the system was notably higher.
+- AL031964 (ABBY)
+  - landfall marker added over SE Texas
+- AL041964 (BRENDA)
+  - landfall marker over Bermuda (as a TS) was added.
+  - overall tropical cyclone (TC) distance was reduced by ~170nmi.
+- AL051964 (CLEO)
+  - Existance as tropical cyclone was found to be over 550nmi less than the previous dataset showed. That distance can be attributed it to going extra-tropical (ET), about that same distance, further south. This was also the primary reason that hurricane track distance was reduced by nearly 750nmi. Resultant `HDP` index had a pronounced reduction as a result.
+  - It also experienced ~315nmi less major-hurricane (MHU) strength than previously shown, as well.
+  - A ~670nmi swath near the end of its track was upgraded to Category 2 strength. When it became ET, it still had that strength, with 85kt winds.
+  - A stronger min-MSLP was found, it being 938mb (instead of 950mb) in the newer dataset.
+  - 7 landfall markers, spanning from the Lesser Antilles, to Hispaniola, to Cuba, to Florida, were added.
+  - 
+- AL061964 (DORA)
+  - It was found that distance traversed as a major hurricane was significantly lower than originally thought (dropped by ~640nmi). This also directly caused a large decrease in MHDP index (makes sense). This storm dropped from a top-70 all-time for North Atlantic MHDP rankings, to #183.
+    - Most of the difference came from a change in intensity data upon its approach to making landfall South of Jacksonville, FL. A long, 520nmi stretch of 100kt (Cat3) winds were downgraded to 90kt (Cat2)
+  - Its total TC track distance was reduced by 440nmi. It was determined that the cyclone went extra-tropical as it approached Myrtle Beach, SC.
+  - 5 or 6 entries, soon after genesis, were shifted by around 100nmi WSW from previous thought.
+  - Florida landfall marker was added.
+- AL071964 (ETHEL)
+  - Hurricane Track Distance was significantly reduced (~1000nmi). 600nmi of that occurred at the tail-end of its life, when it went post-tropical (and was found to still have Cat2 strength at that time). As such, there was a large decrease in `HDP`.
+  - Downgraded from a Cat3 (100kts) to a Cat2 (90kts).
+  - As it was moving Northeast across the Atlantic, Category 2 strength was maintained for an additional 300nmi.
+- AL081964 (FLORENCE)
+  - This system did stay a tropical storm for +165nmi longer than the previous database.
+- AL091964 (GLADYS)
+  - Peak intensity was reduced from 125kts to 115kts. The stretch of Category-4 winds were shrunk by ~250nmi.
+  - Prior to going EX, the newer data showed it retained HU strength for an additional ~270nmi, most occurring at the tail-end of its life, losing TC designation in Newfoundland.
+- AL101964 (HILDA)
+  - Peak Maximum sustained winds were decreased from 130kts to 120kts.
+  - As the system traversed east from LA to FL, it was found to keep its TC designation for an additional ~160nmi.
+  - This was a MHU for about 100nmi less
+  - Cat4 traversal distance was reduced from ~200nmi to 80nmi.
+  - Landfall markers were added in Cuba and added in LA; the LA landfall was changed from an implied Cat3 landfall to a Cat2.
+- AL111964 (ISBELL)
+  - Peak intensity weakened from 110kts to 100kts, a low-end major Hurricane.
+    - the distance travelled as a major hurricane was significantly reduced by ~430nmi.
+  - it did persist as as-least a tropical storm by ~150nmi longer than first thought.
+  - landfall markers (3) added: Cuba, Florida, and NC.
+    - the newer data showed a Category 2 landfall instead of an implied Cat3.
+- AL121964 (UNNAMED)
+  - a pronounced increase in peak winds at landfall (60kt instead of 35) was indicated
+  - A landfall marker was placed on the NE coast of Nicaragua.
+- AL131964 (UNNAMED)
+  - This late-July Tropical Storm was added to the database.
+  - It formed over central SC and became a TS as it moved off of the coast of NC. After which, it was a TS for ~500nmi.
+- AL011965 (UNNAMED)
+  - A 650nmi stretch at genesis, as a Tropical Depression, was removed.
+  - Landfall marker was added to the Far western Florida panhandle.
+- AL021965 (ANNA)
+  - A peak-intensity increase of 10kts (90kts) was the most notable change of this hurricane, making it a Category 2 hurricane.
+    - Around 580nmi of previously-identified Category 1 track was found to be Category 2 instead.
+- AL031965 (BETSY)
+  - Peak intensity was downgraded from 135kts to 120kts.
+  - All energy indices were also had notable decreases.
+  - Despite a revision that saw Cat4+ strength diminish by 333nmi, it still made a Cat4 landfall in LA, mirroring what was implied by the original data, albeit a "weak" category 4.
+  - 5 landfall markers were added: 2 in the Lesser Antilles, 1 in the Bahamas, 1 in Florida, and 1 in Louisiana.
+- AL041965 (CAROL)
+  - A slight downgrade, from a "weak" Category 2 to a "strong" Category 1 hurricane, was made.
+  - A marked decrease in hurricane track distance of ~835nmi was made. Two areas made up that difference.
+  - It was determined that the system lost tropical characteristics ~350nmi further WNW than what was recorded in previous data. And over the open Atlantic, there was around a 4-day period where it was quasi-stationary. Here it weakened to a TS for most of that time. All of this led to a notable decrease in in the `HDP` index and large-margin decrease in TC and TS track lengths.
+- AL051965 (DEBBIE)
+  - this was named a tropical cyclone for about 145nmi more than older data indicated.
+  - landfall marker added to LA.
+- AL061965 (ELENA)
+  - Peak intensity was upgraded +25kts, from a Category 1 to a Category 2 (95kts).
+  - In addition, it maintained a Category 2 designation for over 1100nmi.
+  - Hurricane designation was not achieved for 425nmi later in the track than shown by previous data.
+- AL071965 (UNNAMED)
+  - This Semptember Tropical Storm, occurring between 35N and 45N, was added to the database.
+  - It reached 50kts with ~680nmi track distance.
+- AL081965 (UNNAMED)
+  - This early-October Tropical Storm was added.
+  - It reached 60kts, occurring about 450nmi ENE of Bermuda.
+  - It remained a tropical cyclone for ~275nmi
+- AL091965 (UNNAMED)
+  - This mid-October Tropical storm, forming over the Bahamas, and making landfall on the NE coast of Florida, was added.
+  - Then intensity was strongest at landfall, packing 55kt winds.
+  - It remained a TS for over 550nmi.
+- AL101965 (UNNAMED)
+  - This late-November/early-December Tropical Storm was added.
+  - it occurred over the Atlantic, ~700nmi NE of the Lesser Antilles.
+  - Peak intensity was only found to be 45kts
+  - Distance over the ocean at TS-strength was ~340nmi.

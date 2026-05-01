@@ -1,6 +1,6 @@
 let hd2 = {
 	basin: "atl",
-	year: 2025,
+	year: 2026,
 };
 
 let basin_switch = document.getElementById("basin-switch");
