@@ -84,10 +84,12 @@ ul {
 
 #page-hurdat2-changes div {
 	box-sizing: border-box;
-	font-family: monospace;
 	padding: 1em;
+	font-size: 0.9em;
 }
-
+.hd2-change-blocks {
+	height: 75vh;
+}
 #download-box {
 	display: flex;
 	margin: 0 auto;
