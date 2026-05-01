@@ -2,11 +2,11 @@ Hurdat2 - North Atlantic Basin
 - Updated 04-29-2026
 
 From 2024 to 2025
------------------------------
+-----------------
 - NO SIGNIFICANT CHANGES
 
 From 2023 to 2024
------------------------------
+-----------------
 - AL071927 (UNNAMED)
   - track distance was reduced by ~875nmi.
     - more than likely this was a correction of an erroneous entry, as the original implied a sudden increase in speed from ~1nmi/h to 29nmi/h.
@@ -15,18 +15,18 @@ From 2023 to 2024
   - the corrected entries had originally been resolved in the 2019 HD2, but was reverted back to the erroneous statuses in the 2020 release.
 
 From 2022 to 2023
------------------------------
+-----------------
 - NO SIGNIFICANT CHANGES
 
 From 2021 to 2022
------------------------------
+-----------------
 - AL061941 (UNNAMED)
   - The positional data for `1941-10-20 1400Z`, which was corrected in the last HD2, was reverted back to the 2020 data, showing its position as equal to 12Z
 - AL151966 (KENDRA)
   - entries for `1966-10-06`, originally missing, were added-in (4).
 
 From 2020 to 2021
------------------------------
+-----------------
 
 - The following cyclones were found in previous HD2s but removed in this one:
   - AL021967, AL041967, AL051967, AL061967, AL071967, AL081967, AL091967, AL101967, AL201967, AL221967, AL261967, AL041968, AL071968, AL111968, AL011969, AL021969, AL041969, AL101969, AL111969, AL141969, AL181969, AL061970, AL171970
