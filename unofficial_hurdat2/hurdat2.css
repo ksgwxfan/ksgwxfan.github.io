@@ -93,7 +93,7 @@ ul {
 	margin: 0.5em 0.5em;
 }
 
-#page-hurdat2-changes div {
+#page-hurdat2-changes > div {
 	box-sizing: border-box;
 	padding: 1em;
 }
