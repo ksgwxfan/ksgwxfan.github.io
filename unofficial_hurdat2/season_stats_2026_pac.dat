@@ -3,7 +3,7 @@
                 East Pacific / Central Pacific Basins                 
 
       Stats calculated for Seasons since 1967 (60 total seasons)      
-                    from January 1 thru October 19                    
+                    from January 1 thru October 20                    
 
     * TS-related Statistics include Hurricanes in their totals except 
                             for landfall data                         
@@ -11,17 +11,17 @@
          * Hurdat2 Landfall data incomplete for seasons 1971-1990     
 * Reported ranks are Dense (value-based) and Competition (if different)
 ----------------------------------------------------------------------
-* Tropical Cyclones: 23            Ranks:  4/18 ::  6/59 (tied w/1 season)
-* TC Track Distance: 32667.0 nmi   Ranks:  8/60
+* Tropical Cyclones: 23            Ranks:  5/19 ::  6/59 (tied w/1 season)
+* TC Track Distance: 32667.0 nmi   Ranks:  9/60
 * TS Distance: 29301.0 nmi         Ranks:  2/60
-* HU Distance: 13790.0 nmi         Ranks:  3/60
+* HU Distance: 13790.0 nmi         Ranks:  4/60
 * MHU Distance: 5198.9 nmi         Ranks:  5/55
-* Tropical Storms: 22              Ranks:  3/18 ::  3/60
+* Tropical Storms: 22              Ranks:  3/18 ::  3/60 (tied w/1 season)
 * ACE: 343.9 * 10^4 kt^2           Ranks:  1/60
-* Hurricanes: 12                   Ranks:  4/13 ::  7/60 (tied w/3 seasons)
+* Hurricanes: 12                   Ranks:  5/14 ::  7/60 (tied w/3 seasons)
 * HDP: 277.3 * 10^4 kt^2           Ranks:  1/60
 * Major Hurricanes: 10             Ranks:  1/11 ::  1/55 (tied w/1 season)
 * MHDP: 162.8 * 10^4 kt^2          Ranks:  2/55
 * Total Landfalling TC's: 1        Ranks:   6/7 :: 23/38 (tied w/14 seasons)
-* TS Landfalls: 1                  Ranks:   3/4 :: 15/27 (tied w/11 seasons)
+* TS Landfalls: 1                  Ranks:   3/4 :: 16/27 (tied w/10 seasons)
 * HU Landfalls: 0                  Ranks:   4/4 :: 27/27 (tied w/33 seasons)
